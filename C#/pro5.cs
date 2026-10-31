@@ -7,10 +7,8 @@ public virtual void Speak()
 Console.WriteLine("Animal makesa sound");
 }
 }
- 
 classDog : Animal
 {
- 
 public override voidSpeak()
 {
 Console.WriteLine("Dog barks");
