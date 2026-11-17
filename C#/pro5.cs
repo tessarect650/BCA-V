@@ -1,20 +1,19 @@
-usingSystem;
- 
-classAnimal
+using System;
+class Animal
 {
 public virtual void Speak()
 {
-Console.WriteLine("Animal makesa sound");
+Console.WriteLine("Animal makes a sound");
 }
 }
-classDog : Animal
+class Dog : Animal
 {
-public override voidSpeak()
+public override void Speak()
 {
 Console.WriteLine("Dog barks");
 }
 }
-classProgram
+class Program5
 {
 static void Main()
 {
