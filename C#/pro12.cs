@@ -1,4 +1,4 @@
-MySQL Database & Table Setup
+MySQL Database & Table Setup:
 
 CREATE DATABASE IF NOT EXISTS College;
 USE College;
@@ -6,7 +6,9 @@ CREATE TABLE IF NOT EXISTS Student (
  Id INT PRIMARY KEY,
  Name VARCHAR(50) NOT NULL
 );
--- Verify inserted records:
+
+Verify inserted records:
+
 SELECT * FROM Student;
 
 
