@@ -1,5 +1,10 @@
-/* SQL Setup: CREATE DATABASE college; USE college;
-CREATE TABLE Student ( Id INT PRIMARY KEY, Name VARCHAR(50) ); */
+SQL Setup: 
+
+CREATE DATABASE college; 
+USE college;
+
+CREATE TABLE Student ( Id INT PRIMARY KEY, Name VARCHAR(50) );
+
 
 using System;
 using MySql.Data.MySqlClient;
